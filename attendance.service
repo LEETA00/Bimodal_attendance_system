@@ -1,0 +1,13 @@
+[Unit]
+Description=Bimodal Attendance System
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/attendance/attendance_app.py
+WorkingDirectory=/home/attendance
+User=attendance
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
