@@ -1,0 +1,10 @@
+pillow
+numpy
+spidev
+RPi.GPIO
+mfrc522
+face_recognition
+gspread
+google-auth
+luma.lcd
+picamera2
