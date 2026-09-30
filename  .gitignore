@@ -1,0 +1,8 @@
+credentials.json
+known_faces.pkl
+attendance.db
+card_registry.json
+touch_calibration.json
+__pycache__/
+*.pyc
+.DS_Store
